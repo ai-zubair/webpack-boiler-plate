@@ -5,7 +5,7 @@
 			"type": "npm",
 			"script": "dev",
 			"problemMatcher": [],
-			"label": "npm: dev",
+			"label": "npm: dev-build",
 			"detail": "npm run webpack-dev-server -- --env.mode development",
 			"group": {
 				"kind": "build",
@@ -16,7 +16,7 @@
 			"type": "npm",
 			"script": "prod",
 			"problemMatcher": [],
-			"label": "npm: prod",
+			"label": "npm: prod-build",
 			"detail": "npm run prod -- --env.mode production --presets bundle-analyzer",
 			"group": {
 				"kind": "build",
